@@ -18,7 +18,3 @@ env/
 # Tool caches
 .pytest_cache/
 .mypy_cache/
-
-# Results
-results/outputs/*
-!results/outputs/.gitkeep
