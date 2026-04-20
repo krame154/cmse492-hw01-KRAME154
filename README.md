@@ -22,7 +22,7 @@ Additional sample data:
 ## Personal Analysis
 
 For my personal modification, I added a new metric called `revenue_per_unit`, which calculates how much revenue was earned per unit sold for each region and category group. I also added a new visualization using the `seaborn` package to show the average revenue per unit by region. This improves the analysis by showing not just total revenue, but also how efficiently regions generate revenue from each unit sold.
-#Takeaways
+## Takeaways
 In Homework 1, I took a basic starter repository and reorganized it into a more professional  project. One of the biggest improvements was restructuring the project into clear folders such as `src`, `data`, `results`, and `notebooks`. This made it much easier to understand where everything belongs and how the project is organized. I also improved the README to clearly explain what the project does, how to run it, and what outputs to expect, which is important for anyone else trying to understand my project.
 
 To improve consistency, I used both `requirements.txt` and `environment.yml` to define the environment dependencies. I also created a Dockerfile, which was especially useful Because it ensures consistent performance across all environments(ex local).Docker complements environment tools by isolating the entire environment, preventing issues with missing packages or version conflicts.
