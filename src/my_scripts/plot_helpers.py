@@ -12,7 +12,7 @@ def make_revenue_plot(summary_df: pd.DataFrame, out_path: Path) -> None:
     )
 
     fig, ax = plt.subplots(figsize=(8, 4))
-    ax.bar(revenue_by_region["region"], revenue_by_region["total_revenue"], color="#3b82f6")
+    ax.bar(revenue_by_region["region"], revenue_by_region["total_revenue"], color="#9333ea" )
     ax.set_title("Revenue by Region")
     ax.set_xlabel("Region")
     ax.set_ylabel("Revenue (USD)")
